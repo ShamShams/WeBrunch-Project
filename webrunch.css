@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: rgb(255, 252, 222);
+  text-align: center;
+  font-weight: bold;
+  font-size: 65px;
+  opacity: 0.9;
+  font-family: 'Norican', cursive;
+  line-height: 0;
+}
+
+h2 {
+  color: rgb(227, 179, 113);
+  text-align: center;
+  font-weight: lighter;
+  font-size: 50px;
+  font-family: 'Great Vibes', cursive;
+  line-height: 0;
+}
+
+h2.haveABrunch {
+  font-size: 35px;
+  color: rgb(242, 181, 101);
+}
+
+p {
+  font-family: 'Overlock', serif;
+  font-size: 21px;
+  color: rgb(52, 46, 37);
+  line-height: 1.7;
+  text-align: justify;
+}
+
+#landing {
+  width: 100%;
+  background-image: url(images/land.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  margin-top: 0;
+  padding-top: 260px;
+  /*border: 1px solid black;*/
+}
+
+#weBrunch {
+  /*border: 1px solid black;*/
+  width: 350px;
+  height: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+#haveABrunch {
+  /*border: 1px solid blue;*/
+  width: 500px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  border-top: 1px solid white;
+}
