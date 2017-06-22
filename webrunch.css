@@ -1,3 +1,7 @@
+div {
+  /*border: 1px solid black;*/
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -14,7 +18,7 @@ h1 {
 }
 
 h2 {
-  color: rgb(227, 179, 113);
+  color: #DA8A32;
   text-align: center;
   font-weight: lighter;
   font-size: 50px;
@@ -24,41 +28,74 @@ h2 {
 
 h2.haveABrunch {
   font-size: 35px;
-  color: rgb(242, 181, 101);
+  color: #f2b565;
+}
+
+h3 {
+  color: rgb(255, 252, 222);
+  text-align: center;
+  font-weight: lighter;
+  font-size: 35px;
+  opacity: 0.8;
+  font-family: 'Norican', cursive;
+  margin-top: 200px;
+  margin-left: 10px;
+  margin-right: 10px;
+  line-height: 1;
 }
 
 p {
   font-family: 'Overlock', serif;
-  font-size: 21px;
-  color: rgb(52, 46, 37);
+  font-size: 25px;
+  color: #493723;
   line-height: 1.7;
   text-align: justify;
+  text-align: center;
+  margin: 0px 50px;
+}
+
+p.txtDivLarge {
+  font-family: 'Great Vibes', cursive;
+  font-size: 36px;
+  text-align: center;
+  color: #825337;
+}
+
+p#decouvrezMenu {
+  font-size: 45px;
+}
+
+p.jeBrunch {
+  font-family: 'Norican', cursive;
+  font-size: 35px;
+}
+
+span {
+  color: #FE8468;
 }
 
 #landing {
   width: 100%;
-  background-image: url(images/land.jpg);
+  background-image: url(images/land2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 500px;
   margin-top: 0;
   padding-top: 260px;
-  /*border: 1px solid black;*/
 }
 
 #weBrunch {
-  /*border: 1px solid black;*/
   width: 350px;
   height: 80px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 10px;
+  padding-top: 1px;
   padding-bottom: 5px;
 }
 
 #haveABrunch {
-  /*border: 1px solid blue;*/
   width: 500px;
   height: 50px;
   display: block;
@@ -67,4 +104,146 @@ p {
   padding-top: 5px;
   padding-bottom: 10px;
   border-top: 1px solid white;
+}
+
+#venezBruncher {
+  padding: 80px;
+}
+
+#savoureux {
+  height: 400px;
+  /*margin-bottom: 50px;*/
+}
+
+#imgSavoureux {
+  height: 100%;
+  width: 100%;
+}
+
+
+#degustez {
+  margin-top: 150px;
+}
+
+#boissons {
+  height: 405px;
+  background-color: #fbfbfb;
+  /*margin-bottom: 50px;*/
+}
+
+#sirotez {
+  margin-top: 150px;
+  color: #2ca1c1;
+}
+
+#patisseries {
+  height: 405px;
+}
+
+#succombez {
+  margin-top: 150px;
+  color: #E73A69;
+}
+
+#decouvrez {
+  background-color: #f6f6f6;
+  padding-bottom: 150px;
+}
+
+#decouvrez>.divLarge {
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+#sucres {
+  background-image: url(images/8.jpg);
+}
+
+#sales {
+  background-image: url(images/2.jpg);
+}
+
+#chaudes {
+  background-image: url(images/bChaude.jpg);
+}
+
+#froides {
+  background-image: url(images/bFroide.jpg);
+}
+
+#menu {
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 0;
+  height: 500px;
+}
+
+#imgJeBrunch {
+  height: 100%;
+  width: 100%;
+}
+
+#jeBrunch {
+  padding: 150px 0;
+}
+
+.imgMenu {
+  height: 500px;
+  width: 150px;
+  margin-bottom: 30px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f6f6f6;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.imgMenu:hover {
+  opacity: 0.6;
+}
+
+.divLarge {
+  padding: 50px;
+  background-color: #f6f6f6;
+}
+
+.littleLeft {
+  height: 100%;
+  width: 40%;
+  display: inline-block;
+  float: left;
+}
+
+.littleRight {
+  height: 100%;
+  width: 40%;
+  display: inline-block;
+  float: right;
+}
+
+.bigRight {
+  height: 100%;
+  width: 59%;
+  display: inline-block;
+  float: right;
+}
+
+.bigLeft {
+  height: 100%;
+  width: 59%;
+  display: inline-block;
+  float: left;
+}
+
+.cocktail {
+  height: 100%;
+  width: 250px;
+  margin-left: 17px;
+}
+
+.patisserie {
+  height: 100%;
+  width: 100%;
+  margin-right: 17px;
 }
